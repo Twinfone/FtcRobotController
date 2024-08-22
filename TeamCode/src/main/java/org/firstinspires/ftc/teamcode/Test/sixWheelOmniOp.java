@@ -55,7 +55,6 @@ public class sixWheelOmniOp extends LinearOpMode {
             if(gamepad1.b)
                 servoPos = 0;
 
-            Range.clip(servoPos, 0,1);
 
 
             leftDrive.setPower(leftPower);
